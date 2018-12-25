@@ -1,5 +1,6 @@
 const initialState = {
-	gameItem: []
+	gameItem: [],
+	filter: ''
 }
 
 const gameReducer = (state = initialState, action) => {
@@ -8,6 +9,11 @@ const gameReducer = (state = initialState, action) => {
 			return {
 				...state,
 				gameItem: action.payload
+			};
+		case "SET_FILTER":
+			return {
+				...state,
+				filter: action.payload
 			}
 		default:
 			return state;

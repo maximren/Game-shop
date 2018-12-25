@@ -35,6 +35,78 @@
 			"price": "15$",
 			"author": "Blizzard",
 			"genre": "MOBA"
+		},
+		{
+			"id": 5,
+			"title": "Counter-Strike: Global Offensive",
+			"img": "https://1000logos.net/wp-content/uploads/2017/12/CSGO-Logo.png",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet augue ut felis tristique eleifend quis ac augue. Cras nec eleifend enim, at ultricies augue.",
+			"price": "25$",
+			"author": "Valve",
+			"genre": "Shooter"
+		},
+		{
+			"id": 6,
+			"title": "Overwatch",
+			"img": "https://cdna.artstation.com/p/assets/images/images/005/296/592/large/nokado-katoji-overwatch-logo-blank.jpg?1490020924",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet augue ut felis tristique eleifend quis ac augue. Cras nec eleifend enim, at ultricies augue.",
+			"price": "25$",
+			"author": "Blizzard",
+			"genre": "Shooter"
+		},
+		{
+			"id": 7,
+			"title": "Destiny",
+			"img": "data:image/png;base64,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",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet augue ut felis tristique eleifend quis ac augue. Cras nec eleifend enim, at ultricies augue.",
+			"price": "15$",
+			"author": "Activision",
+			"genre": "Shooter"
+		},
+		{
+			"id": 8,
+			"title": "PlayerUnknown's Battleground",
+			"img": "https://ih0.redbubble.net/image.486362939.3581/ap,550x550,16x12,1,transparent,t.u2.png",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet augue ut felis tristique eleifend quis ac augue. Cras nec eleifend enim, at ultricies augue.",
+			"price": "25$",
+			"author": "PUBG Corporation",
+			"genre": "Shooter"
+		},
+		{
+			"id": 9,
+			"title": "Skyrim",
+			"img": "https://upload.wikimedia.org/wikipedia/commons/4/45/The_Elder_Scrolls_V_-_Skyrim_logo.png",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet augue ut felis tristique eleifend quis ac augue. Cras nec eleifend enim, at ultricies augue.",
+			"price": "30$",
+			"author": "Bethesda",
+			"genre": "RPG"
+		},
+		{
+			"id": 10,
+			"title": "The Witcher 3: Wild Hunt",
+			"img": "https://static.cdprojektred.com/thewitcher.com/gfx/witcher3/logo-en.png",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet augue ut felis tristique eleifend quis ac augue. Cras nec eleifend enim, at ultricies augue.",
+			"price": "30$",
+			"author": "CD Projekt",
+			"genre": "RPG"
+		},
+		{
+			"id": 11,
+			"title": "Dark Souls",
+			"img": "https://vignette.wikia.nocookie.net/darksouls/images/d/dd/Dark_Souls_Logo.png/revision/latest?cb=20160427202419&path-prefix=ru",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet augue ut felis tristique eleifend quis ac augue. Cras nec eleifend enim, at ultricies augue.",
+			"price": "25$",
+			"author": "FromSoftware",
+			"genre": "RPG"
+		},
+		{
+			"id": 12,
+			"title": "Fallout: New Vegas",
+			"img": "https://vignette.wikia.nocookie.net/fallout/images/4/4a/Fallout_NV_logo.png/revision/latest?cb=20100204224608",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet augue ut felis tristique eleifend quis ac augue. Cras nec eleifend enim, at ultricies augue.",
+			"price": "25$",
+			"author": "Obsidian Intertainment",
+			"genre": "RPG"
 		}
 	]
 }

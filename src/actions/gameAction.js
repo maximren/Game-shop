@@ -1,7 +1,7 @@
-import { api } from '../helpers/config';
+import { gameApi } from '../helpers/config';
 
 export const getGamesList = () => dispatch => {
-    fetch(api)
+    fetch(gameApi)
         .then(result => result.json())
         .then(games => {
             dispatch({
