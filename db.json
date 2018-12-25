@@ -1,0 +1,40 @@
+{
+	"games": [
+		{
+			"id": 1,
+			"title": "League of Legends",
+			"img": "https://upload.wikimedia.org/wikipedia/ru/7/77/League_of_Legends_logo.png",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet augue ut felis tristique eleifend quis ac augue. Cras nec eleifend enim, at ultricies augue.",
+			"price": "15$",
+			"author": "Riot Games",
+			"genre": "MOBA"
+		},
+		{
+			"id": 2,
+			"title": "Dota 2",
+			"img": "https://cdn.vox-cdn.com/thumbor/7pam8M9JfbGWAYouPND0d2vCZtY=/0x0:660x360/1200x0/filters:focal(0x0:660x360):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/6645195/dota-2-logo.0.jpg",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet augue ut felis tristique eleifend quis ac augue. Cras nec eleifend enim, at ultricies augue.",
+			"price": "15$",
+			"author": "Valve",
+			"genre": "MOBA"
+		},
+		{
+			"id": 3,
+			"title": "Heroes of Newerth",
+			"img": "https://www.gametech.ru/sadm_images/00jin/2011/july/30/31_07.jpg",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet augue ut felis tristique eleifend quis ac augue. Cras nec eleifend enim, at ultricies augue.",
+			"price": "15$",
+			"author": "Garena, S2 Games",
+			"genre": "MOBA"
+		},
+		{
+			"id": 4,
+			"title": "Heroes of the Storm",
+			"img": "https://static.heroesofthestorm.com/images/global/fb-share.jpg",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet augue ut felis tristique eleifend quis ac augue. Cras nec eleifend enim, at ultricies augue.",
+			"price": "15$",
+			"author": "Blizzard",
+			"genre": "MOBA"
+		}
+	]
+}
