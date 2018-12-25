@@ -1,14 +1,18 @@
-import React, { PureComponent } from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import React, { Component } from 'react';
+import { Route, Switch } from 'react-router-dom';
 
 import Games from './Games';
+import TopGames from './TopGames';
 
-class Page extends PureComponent {
+class Page extends Component {
 	render() {
 		return (
-			<BrowserRouter>
+			<div>
+				<Switch>
 					<Route exact path="/" component={Games} />
-			</BrowserRouter>
+					<Route path="/topgames" component={TopGames} />
+				</Switch>
+			</div>
 		)
 	}
 }

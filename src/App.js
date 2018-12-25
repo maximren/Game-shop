@@ -1,21 +1,24 @@
 import React, { PureComponent } from 'react';
 import { Provider } from 'react-redux';
+import { BrowserRouter } from 'react-router-dom'
 
 import Page from './components/Page';
 import './App.css';
-import Header from './components/Header';
+import Navbar from './components/Navbar';
 import store from './store';
 
 
 class App extends PureComponent {
   render() {
     return (
-      <Provider store={store}>
-        <div className="App">
-          <Header />
-          <Page />
-        </div>
-      </Provider >
+      <BrowserRouter>
+        <Provider store={store}>
+          <div className="App">
+            <Navbar />
+            <Page />
+          </div>
+        </Provider >
+      </BrowserRouter >
     );
   }
 }

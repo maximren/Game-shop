@@ -1,19 +1,23 @@
 import React, { PureComponent } from 'react';
+import { Link } from 'react-router-dom';
 
+import Sort from './Sort';
 import '../App.css'
 
 class Navbar extends PureComponent {
 	render() {
 		return (
-			<div>
-				<form>
-					<label>Sort by genre</label>
-					<button>MOBA</button>
-					<button>Shooter</button>
-					<button>RPG</button>
-					<button>all</button>
-				</form>
-			</div>
+			<>
+				<Sort />
+				<nav>
+					<div>
+						<ul>
+							<li><Link to="/">All Games</Link></li>
+							<li><Link to="/topgames">Top Games</Link></li>
+						</ul>
+					</div>
+				</nav>
+			</>
 		)
 	}
 }
